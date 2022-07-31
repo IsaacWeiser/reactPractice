@@ -7,6 +7,7 @@ import { IdivHero } from "../heros/heroRoute";
 import { IndivVill } from "../villains/villainRoute";
 import { IndivCity } from "../cities/cityRoute";
 import { AddHeroForm } from "../heros/AddHero";
+import { SuperShowdown } from "../showdown/showdown";
 
 export const ApplicationViews = () => {
   return (
@@ -31,6 +32,9 @@ export const ApplicationViews = () => {
       </Route>
       <Route exact path="/heros/new">
         <AddHeroForm />
+      </Route>
+      <Route path="/showdown">
+        <SuperShowdown />
       </Route>
     </>
   );

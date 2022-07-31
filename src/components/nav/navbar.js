@@ -17,6 +17,9 @@ export const Navbar = () => {
         <li>
           <Link to="/heros/new">add a hero</Link>
         </li>
+        <li>
+          <Link to="/showdown">showdown</Link>
+        </li>
       </ul>
     </div>
   );
